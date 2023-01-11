@@ -72,7 +72,8 @@ while command_string != 'exit':
             print("\nAvalaible commands:\nhelp - this help\nexit - stop running a programm\n" + 
                   "show - a list of items in the warehouse\nshowsold - a list of items sold from the warehouse\n" + 
                   "add - adding a new item to the warehouse\nsell - selling items from the warehouse\n" +
-                  "show_revenue - to get a sum\nload - load data from a file\nsave - save the data to a file\n")
+                  "show_revenue - to get a sum of incomes and costs\nload - load data from a file\n" + 
+                  "save - save the data to a file\n")
         if command_string == 'show':
             get_items()
         if command_string == 'showsold':
